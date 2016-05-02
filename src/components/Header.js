@@ -50,7 +50,6 @@ Header.propTypes = {
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    marginTop: 20,
     height: VIEWPORT.height * 0.095, // 64/667 header bar height to 64 ppoints in phone6
     width: VIEWPORT.width,
     backgroundColor: '#41474D',

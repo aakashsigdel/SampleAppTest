@@ -38,8 +38,8 @@ export const registerUser = (user) => {
     .then(response => response.json())
     .then(json => {
       console.log('i am response', json)
-      alert('yayyy')
       dispatch(registerUserSuccess(userData))
+      alert('You have been registered!')
     })
     .catch((error) => {
       console.log('i am error', error)
