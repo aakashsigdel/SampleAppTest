@@ -2,14 +2,6 @@ import React, {
   AppRegistry,
   Component
 } from 'react-native'
-import App from './pages'
+import App from './src/pages'
 
-class SampleAppDemo extends Component {
-  render() {
-    return (
-      <App />
-    )
-  }
-}
-
-AppRegistry.registerComponent('SampleAppDemo', () => SampleAppDemo)
+AppRegistry.registerComponent('SampleAppDemo', () => App)
